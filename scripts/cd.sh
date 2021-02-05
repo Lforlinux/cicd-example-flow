@@ -5,4 +5,5 @@ folder=cicd-example-flow
 cd /var/tmp
 cd $folder && git pull
 ls -lrth 
+whoami
 #/usr/bin/rsync -rlDvcC --progress --chmod=Du+w mywebsite/html/* /var/www/html/
