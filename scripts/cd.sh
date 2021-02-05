@@ -1,2 +1,2 @@
 #/bin/bash
-/usr/bin/rsync -rlDvcC --progress --chmod=Du+w mywesite/html/* /var/www/html/
+/usr/bin/rsync -rlDvcC --progress --chmod=Du+w mywebsite/html/* /var/www/html/
