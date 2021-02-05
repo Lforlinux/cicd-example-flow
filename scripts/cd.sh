@@ -7,3 +7,4 @@ cd $folder && git pull
 md5sum mywebsite/html/index.html
 /usr/bin/rsync -rlDvcC --progress  mywebsite/html/* /var/www/html/
 md5sum /var/www/html/index.html
+pwd
