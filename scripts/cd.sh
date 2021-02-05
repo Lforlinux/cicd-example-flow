@@ -4,5 +4,6 @@ folder=cicd-example-flow
 
 cd /var/tmp
 cd $folder && git pull
-ls -lrth 
+md5sum mywebsite/html/index.html
 /usr/bin/rsync -rlDvcC --progress  mywebsite/html/* /var/www/html/
+md5sum /var/www/html/index.html
