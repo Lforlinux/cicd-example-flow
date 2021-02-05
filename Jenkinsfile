@@ -41,5 +41,11 @@ pipeline {
                   )
             }
         }
+        
+    }
+    post {
+        always {
+            archiveArtifacts artifacts: 'mywebsite/html/**.html', fingerprint: true
+        }
     }
 }
